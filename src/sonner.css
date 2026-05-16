@@ -1,0 +1,30 @@
+/* Success Toast - Light Green */
+[data-sonner-toast][data-type='success'] {
+  background-color: #d1fae5 !important; /* emerald-100 */
+  color: #065f46 !important; /* emerald-800 */
+  border: 1px solid #6ee7b7; /* emerald-300 */
+}
+
+/* Error Toast - Light Red */
+[data-sonner-toast][data-type='error'] {
+  background-color: #fee2e2 !important; /* red-100 */
+  color: #991b1b !important; /* red-800 */
+  border: 1px solid #fca5a5; /* red-300 */
+}
+
+/* Optional: Info / Warning */
+[data-sonner-toast][data-type='warning'] {
+  background-color: #fef3c7 !important; /* amber-100 */
+  color: #92400e !important; /* amber-800 */
+  border: 1px solid #fcd34d; /* amber-300 */
+}
+
+[data-sonner-toast][data-type='info'] {
+  background-color: #dbeafe !important; /* blue-100 */
+  color: #1e40af !important; /* blue-800 */
+  border: 1px solid #93c5fd; /* blue-300 */
+}
+[data-sonner-toast] {
+  border-radius: 10px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
